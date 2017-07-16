@@ -1,0 +1,9 @@
+{
+    "window.zoomLevel": -1,
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 2,
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true
+}
