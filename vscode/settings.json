@@ -5,5 +5,11 @@
     "files.autoSave": "afterDelay",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
     "git.confirmSync": false,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "cSpell.language": "en-GB",
+    "files.defaultLanguage": "powershell",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "powershell.integratedConsole.focusConsoleOnExecute": false,
+    "editor.mouseWheelZoom": true
 }
