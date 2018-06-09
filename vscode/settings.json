@@ -1,7 +1,8 @@
 {
-    "window.zoomLevel": -1,
+    "window.zoomLevel": -2,
     "editor.minimap.enabled": false,
     "editor.tabSize": 2,
+    "editor.insertSpaces": true,        
     "files.autoSave": "afterDelay",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
     "git.confirmSync": false,
@@ -10,6 +11,20 @@
     "files.defaultLanguage": "powershell",
     "editor.formatOnType": true,
     "editor.formatOnPaste": true,
-    "powershell.integratedConsole.focusConsoleOnExecute": false,
-    "editor.mouseWheelZoom": true
+    "powershell.integratedConsole.focusConsoleOnExecute": true,
+    "editor.mouseWheelZoom": true,
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    "git.autofetch": true,
+    "workbench.colorTheme": "PowerShell ISE",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true
 }
