@@ -1,0 +1,3 @@
+code --install-extension ms-vscode.powershell
+code --install-extension sirtori.indenticator
+code --install-extension coolbear.systemd-unit-file
