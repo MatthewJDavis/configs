@@ -5,3 +5,11 @@ code --install-extension tyriar.sort-lines
 code --install-extension kddejong.vscode-cfn-lint
 code --install-extension redhat.vscode-yaml
 code --install-extension oderwat.indent-rainbow
+code --install-extension vscoss.vscode-ansible
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension eamodio.gitlens
+code --install-extension davidanson.vscode-markdownlint
+code --install-extension eridem.vscode-nupkg
+code --install-extension ms-python.python
+code --install-extension slevesque.vscode-zipexplorer
+
