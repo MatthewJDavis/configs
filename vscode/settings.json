@@ -22,9 +22,10 @@
         "editor.tabSize": 4
     },
     "git.autofetch": true,
-    "workbench.colorTheme": "PowerShell ISE",
+    "workbench.colorTheme": "Monokai Dimmed",
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    "gitlens.historyExplorer.enabled": true
+    "gitlens.historyExplorer.enabled": true,
+    "yaml.validate": false
 }
