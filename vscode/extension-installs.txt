@@ -4,3 +4,4 @@ code --install-extension coolbear.systemd-unit-file
 code --install-extension tyriar.sort-lines
 code --install-extension kddejong.vscode-cfn-lint
 code --install-extension redhat.vscode-yaml
+code --install-extension oderwat.indent-rainbow
