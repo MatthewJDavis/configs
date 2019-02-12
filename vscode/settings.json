@@ -27,5 +27,18 @@
         "suppressShowKeyBindingsNotice": true
     },
     "gitlens.historyExplorer.enabled": true,
-    "yaml.validate": false
+    "yaml.validate": true,
+    "yaml.customTags": [
+        "!Equals sequence",
+        "!FindInMap sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!Join sequence",
+        "!Ref",
+        "!Base64",
+        "!Select sequence",
+        "!Split sequence",
+        "!Sub"
+    ],
 }
