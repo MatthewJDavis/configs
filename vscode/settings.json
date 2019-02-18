@@ -30,7 +30,6 @@
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    "yaml.validate": false,
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
     "shellLauncher.shells.windows": [
@@ -43,5 +42,19 @@
             "label": "Windows PowerShell"
         }
     ],
-    "powershell.codeFormatting.preset": "OTBS"
+    "powershell.codeFormatting.preset": "OTBS",
+    "yaml.validate": true,
+    "yaml.customTags": [
+        "!Equals sequence",
+        "!FindInMap sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!Join sequence",
+        "!Ref",
+        "!Base64",
+        "!Select sequence",
+        "!Split sequence",
+        "!Sub"
+    ],
 }
