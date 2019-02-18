@@ -17,6 +17,10 @@
         "editor.insertSpaces": true,
         "editor.tabSize": 2
     },
+    "[powershell]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
     "[python]": {
         "editor.insertSpaces": true,
         "editor.tabSize": 4
@@ -26,8 +30,18 @@
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    "gitlens.historyExplorer.enabled": true,
     "yaml.validate": false,
     "gitlens.views.fileHistory.enabled": true,
-    "gitlens.views.lineHistory.enabled": true
+    "gitlens.views.lineHistory.enabled": true,
+    "shellLauncher.shells.windows": [
+        {
+            "shell": "c:\\Program Files\\PowerShell\\6\\pwsh.exe",
+            "label": "PowerShell Core"
+        },
+        {
+            "shell": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "label": "Windows PowerShell"
+        }
+    ],
+    "powershell.codeFormatting.preset": "OTBS"
 }
