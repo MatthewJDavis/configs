@@ -1,10 +1,10 @@
 {
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "editor.minimap.enabled": false,
-    "editor.tabSize": 2,
-    "editor.insertSpaces": true,        
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
     "files.autoSave": "afterDelay",
-    "terminal.integrated.shell.windows": "C:\\PowerShellCore\\PowerShell-6.1.2\\pwsh.exe",
+    "terminal.integrated.shell.windows": "C:/PowerShellCore/PowerShell-6.1.2/pwsh.exe",
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
     "cSpell.language": "en-GB",
@@ -34,11 +34,11 @@
     "gitlens.views.lineHistory.enabled": true,
     "shellLauncher.shells.windows": [
         {
-            "shell": "c:\\Program Files\\PowerShell\\6\\pwsh.exe",
+            "shell": "C:/PowerShellCore/PowerShell-6.1.2/pwsh.exe",
             "label": "PowerShell Core"
         },
         {
-            "shell": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "shell": "C:/Windows/system32/WindowsPowerShell/v1.0/powershell.exe",
             "label": "Windows PowerShell"
         }
     ],
@@ -57,4 +57,5 @@
         "!Split sequence",
         "!Sub"
     ],
+    "powershell.powerShellExePath": "C:\\Program Files\\PowerShell\\6\\pwsh.exe"
 }
