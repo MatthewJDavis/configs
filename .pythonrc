@@ -1,0 +1,3 @@
+# tab complete in python interactive terminal
+import rlcompleter, readline
+readline.parse_and_bind('tab:complete')
